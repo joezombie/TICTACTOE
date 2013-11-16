@@ -5,6 +5,6 @@ jdk:
 <<<<<<< HEAD
 branches:
  only:
-  - 'master'
+  -'master'
 =======
 >>>>>>> cfc3baa162e6f0006e52026ec70679eecd2737ee
