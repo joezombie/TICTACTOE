@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Clean target."
+bin/clean
+echo "Build source code."
+bin/compile
+echo "Build unit tests."
+bin/unit_test
+echo "Calling executable run."
+bin/run
