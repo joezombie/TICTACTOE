@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Clean target."
 bin/clean
+echo "Packaging.."
+bin/package
 echo "Build source code."
 bin/compile
 echo "Build unit tests."
