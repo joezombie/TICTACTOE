@@ -2,6 +2,9 @@ language: java
 jdk: 
  -openjdk7
  -oraclejdk7
+<<<<<<< HEAD
 branches:
  only:
   - 'master'
+=======
+>>>>>>> cfc3baa162e6f0006e52026ec70679eecd2737ee
