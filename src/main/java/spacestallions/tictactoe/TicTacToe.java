@@ -10,9 +10,4 @@ public class TicTacToe
 	{
 		System.out.println ("Template class");
 	}
-
-	public static String test (String test)
-	{
-		return test;
-	}
 }
