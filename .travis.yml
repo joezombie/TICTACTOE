@@ -15,7 +15,6 @@ notifications:
    - bjossialf@gmail.com
    - arnarjonasson@gmail.com
    - binnih@gmail.com
-   - joezombie@gmail.com
    - gislig@gmail.com
   on_success: change
   on_failure: always  
