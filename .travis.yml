@@ -17,13 +17,6 @@ script: mvn clean package compile test
 notifications:
  email:
   recepients:
-   - ghardard@gmail.com
-   - emil@8bit.is
    - johannesh10@ru.is
-   - evillevy@gmail.com
-   - bjossialf@gmail.com
-   - arnarjonasson@gmail.com
-   - binnih@gmail.com
-   - gislig@gmail.com
   on_success: change
   on_failure: always  
