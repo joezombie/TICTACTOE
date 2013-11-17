@@ -18,5 +18,5 @@ notifications:
  email:
   recepients:
    - johannesh10@ru.is
-  on_success: change
+  on_success: always
   on_failure: always  
