@@ -1,6 +1,5 @@
 #language is java
 language: java
-<<<<<<< HEAD
 
 #tell travis which version of jdk to use
 jdk: 
