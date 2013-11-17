@@ -1,5 +1,6 @@
 #language is java
 language: java
+<<<<<<< HEAD
 
 #tell travis which version of jdk to use
 jdk: 
@@ -19,11 +20,11 @@ notifications:
   recepients:
    - ghardard@gmail.com
    - emil@8bit.is
+   - johannesh10@ru.is
    - evillevy@gmail.com
    - bjossialf@gmail.com
    - arnarjonasson@gmail.com
    - binnih@gmail.com
-   - joezombie@gmail.com
    - gislig@gmail.com
   on_success: change
   on_failure: always  
