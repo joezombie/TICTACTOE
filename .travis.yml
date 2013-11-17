@@ -3,8 +3,8 @@ language: java
 
 #tell travis which version of jdk to use
 jdk: 
- -openjdk7
- -oraclejdk7
+ - openjdk7
+ - oraclejdk7
  
 #tell travis to build master branch
 branches:
