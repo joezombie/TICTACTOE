@@ -9,5 +9,12 @@ notifications:
  email:
   recepients:
    - ghardard@gmail.com
-  on_success: always
+   - emil@8bit.is
+   - evillevy@gmail.com
+   - bjossialf@gmail.com
+   - arnarjonasson@gmail.com
+   - binnih@gmail.com
+   - joezombie@gmail.com
+   - gislig@gmail.com
+  on_success: change
   on_failure: always  
