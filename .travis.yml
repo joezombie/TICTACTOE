@@ -1,10 +1,19 @@
+#language is java
 language: java
+
+#tell travis which version of jdk to use
 jdk: 
  -openjdk7
  -oraclejdk7
+ 
+#tell travis to build master branch
 branches:
  only:
   - "master"
+
+script: mvn clean package compile test 
+
+#configure notifications
 notifications:
  email:
   recepients:
