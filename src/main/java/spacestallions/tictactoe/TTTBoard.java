@@ -2,11 +2,26 @@ package spacestallions.tictactoe;
 
 public class TTTBoard
 {
-	public static char[][] takeTurn(char player, int x, int y) {
+	public char[][] takeTurn(char player, int x, int y) {
+		if (nextPlayer == player) {
+			board[x][y] = player;
+		}
 		
-		board[0][0] = 'X';
+		if (nextPlayer == 'X'){
+			nextPlayer = 'Y';
+		} else {
+			nextPlayer = 'X';
+		}
 		return board;
 	}
 
-	private static char[][] board = {{'\0','\0','\0'},{'\0','\0','\0'},{'\0','\0','\0'}};
+	public char getNextPlayer() {
+		return nextPlayer;
+	}
+	/*
+	TicTacToe board	
+	Starting from top left is [0][0] and bottom right is [2][2]
+	*/
+	private char[][] board = {{'\0','\0','\0'},{'\0','\0','\0'},{'\0','\0','\0'}};
+	private char nextPlayer = 'X';
 }
